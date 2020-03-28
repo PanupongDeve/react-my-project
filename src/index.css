@@ -1,0 +1,139 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css");
+@import url("/node_modules/@fortawesome/fontawesome-free/css/all.min.css");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600");
+
+:root {
+  --color-grey: #fff; }
+
+html {
+  background-color: #2801F9 !important;
+}
+
+body {
+  background-color: #2801F9 !important;
+  min-height: 100vh; }
+
+.ta-project__nav-flex {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  width: 100%; }
+
+.ta-project__nav-header {
+  text-transform: uppercase;
+  font-weight: bold; }
+
+.ta-project__nav-header-name {
+  font-weight: bold; }
+
+.ta-project__nav-icon {
+  color: red;
+  margin-right: 5px; }
+
+.ta-project__font-responsive {
+  font-size: 24px; }
+
+.ta-project__font-black:hover {
+  color: #4a4a4a !important; }
+
+.card-1 {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+
+.card-1:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
+
+.nav--fix-size {
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px; }
+
+.ta-card-img__container {
+  width: 100%; }
+
+.ta-card-img__figture {
+  width: 100%; }
+
+.ta-detail__container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  width: 100%; }
+
+.ta-detail__tag {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center; }
+
+.ta-button__full {
+  width: 100%; }
+
+.ta-button__top {
+  margin-top: 20px; }
+
+.ta-tag__sass {
+  background-color: pink !important;
+  color: palevioletred !important; }
+
+.flex-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #60D7A9; }
+
+.dots .dot {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  margin: 0 10px 0 10px;
+  border-radius: 50%;
+  background: #FFF;
+  -webkit-animation: dot-dot-dot 1.4s linear infinite;
+  animation: dot-dot-dot 1.4s linear infinite; }
+
+.dots .dot:nth-child(2) {
+  animation-delay: .2s; }
+
+.dots .dot:nth-child(3) {
+  animation-delay: .4s; }
+
+@keyframes dot-dot-dot {
+  0%, 60%, 100% {
+    -webkit-transform: initial;
+    -ms-transform: initial;
+    transform: initial; }
+  30% {
+    -webkit-transform: translateY(-25px);
+    -ms-transform: translateY(-25px);
+    transform: translateY(-25px); } }
+
+.ta-project__app {
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-top: 40px; }
+
+.ta-project__card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.tag__container {
+  margin: 2.5px;
+}

@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import { header } from './conent';
-
+import { firebaseTestRepository } from '../../repositories/firebaseTestRepository';
 export class Header extends Component {
+    componentDidMount() {
+        firebaseTestRepository.create();
+    }
 
     render() {
         const { projectName, author } = header;
